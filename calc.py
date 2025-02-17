@@ -12,4 +12,4 @@ class CalculoDiferencaDatas:
 data_inicial = "2024-01-01"
 data_final = "2024-03-01"
 calculadora = CalculoDiferencaDatas(data_inicial, data_final)
-print("Diferença entre as datas:", calculadora.calcular_diferenca(), "dias")
+print("Diferença entre as datas fornecidas:", calculadora.calcular_diferenca(), "dias")
